@@ -4,32 +4,39 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep1 World!");
+        // Console.WriteLine("Hello Prep1 World!");
 
-        // Declare variable
-        string firstName = "Bob";
-        Console.WriteLine($"Hello {firstName}");
+        // // Declare variable
+        // string firstName = "Bob";
+        // Console.WriteLine($"Hello {firstName}");
 
-        // Input lines
-        Console.Write("What's your name?");
-        string userName = Console.ReadLine();
+        // // Input lines
+        // Console.Write("What's your name?");
+        // string userName = Console.ReadLine();
 
-        // numbers
-        Console.WriteLine("How old are you?");
-        int age = int.Parse(Console.ReadLine());
+        // // numbers
+        // Console.WriteLine("How old are you?");
+        // int age = int.Parse(Console.ReadLine());
 
-        //decimals numbers
-        double x = 5.5;
+        // //decimals numbers
+        // double x = 5.5;
 
-        //float numbers
-        float y = 5.5f;
+        // //float numbers
+        // float y = 5.5f;
 
-        // booleans
-        bool isDone = false;
+        // // booleans
+        // bool isDone = false;
 
-        if (isDone)
-        {
-            Console.WriteLine("All done");
-        }
+        // if (isDone)
+        // {
+        //     Console.WriteLine("All done");
+        // }
+        Console.Write("What is your first name: ");
+        string first_name = Console.ReadLine();
+
+        Console.Write("What is your last name: ");
+        string last_name = Console.ReadLine();
+
+        Console.WriteLine($"Your name is {last_name}, {first_name} {last_name}");
     }
 }
