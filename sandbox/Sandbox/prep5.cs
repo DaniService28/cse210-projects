@@ -47,6 +47,7 @@ class Program
     {
         Console.WriteLine($"Brother {name}, the square of your number is {square}.");
         Console.WriteLine($"Brother {name}, you will turn {2025 - birthYear} this year.");
+        Console.WriteLine("Thank you for using the program. Goodbye!");
     }
 
 }
