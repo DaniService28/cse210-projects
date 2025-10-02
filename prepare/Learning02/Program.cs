@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
+
+        // Create two Job objects
         Job job1 = new Job();
         job1._company = "Microsoft";
         job1._jobTitle = "Software Engineer";
@@ -17,7 +19,7 @@ class Program
         job2._endYear = 2024;
 
 
-
+        // Create a new Resume object
 
         Resume myResume = new Resume();
         myResume._name = "Daniel Herrera";
