@@ -38,21 +38,31 @@ public class Journal
 
     public void LoadToFile(string file)
     {
-        string filename = file;
-        string[] lines = System.IO.File.ReadAllLines(filename);
-
-        Console.WriteLine("Loading file...");
-
-        foreach (string line in lines)
+        try
         {
-            Entry entry = new Entry();
-            string[] parts = line.Split("---");
+            string filename = file;
+            string[] lines = System.IO.File.ReadAllLines(filename);
 
-            entry._date = parts[0];
-            entry._promptText = parts[1];
-            entry._entryText = parts[2];
+            Console.WriteLine("Loading file...");
 
-            AddEntry(entry);
+            foreach (string line in lines)
+            {
+                Entry entry = new Entry();
+                string[] parts = line.Split("---");
+
+                entry._date = parts[0];
+                entry._promptText = parts[1];
+                entry._entryText = parts[2];
+
+                AddEntry(entry);
+            }
         }
+
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading file: {ex.Message}");
+        }
+
+
     }
 }
