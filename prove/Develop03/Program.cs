@@ -4,6 +4,45 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        Reference reference = new Reference();
+        string scriptureReference = reference.GetScripture();
+
+        Scripture scripture = new Scripture();
+        scripture.ConvertScriptureIntoList(scriptureReference);
+
+        Console.Write(reference.DisplayReference());
+        Console.WriteLine(reference.DisplayScripture());
+        string userPrompt = string.Empty;
+
+        while (userPrompt != "quit" && !scripture.IsCompletelyHidden())
+        {
+            Console.WriteLine("Press enter to hide words or type 'quit' to end the program");
+            userPrompt = Console.ReadLine();
+
+
+            Console.Clear();
+
+            string message = scripture.HideRandomWord();
+
+
+            Console.WriteLine(message);
+            Console.Write(reference.DisplayReference());
+            scripture.GetDisplayText();
+            Console.WriteLine(scripture.GetProgressInPercentage());
+
+
+            if (scripture.IsCompletelyHidden())
+            {
+                Console.Clear();
+                Console.WriteLine("The scripture is completely hidden. Exiting the program.");
+            }
+            else if (userPrompt == "quit")
+            {
+                Console.Clear();
+                Console.WriteLine("Exiting the program.");
+            }
+        }
+
+
     }
 }
