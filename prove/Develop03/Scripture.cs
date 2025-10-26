@@ -5,7 +5,7 @@ public class Scripture
     private List<Word> _words = new List<Word>();
     private Random _random = new Random();
 
-    public void ConvertScriptureIntoList(string scripture)
+    public void ConvertTextIntoList(string scripture)
     {
         foreach (string wordText in scripture.Split(" "))
         {
@@ -16,18 +16,10 @@ public class Scripture
     public string HideRandomWord()
     {
         List<Word> showedWords = _words.Where(word => !word.IsHidden()).ToList();
+        int randomIndex = _random.Next(showedWords.Count);
+        showedWords[randomIndex].Hide();
+        return "Word hidden";
 
-        if (showedWords.Count > 0)
-        {
-            int randomIndex = _random.Next(showedWords.Count);
-            showedWords[randomIndex].Hide();
-            return "Word hidden";
-        }
-
-        else
-        {
-            return "Scripture is empty";
-        }
     }
 
     public void GetDisplayText()
@@ -48,7 +40,7 @@ public class Scripture
     }
 
     // Show creativity
-    public string GetProgressInPercentage()
+    public string GetProgressPercentage()
     {
         int totalWords = _words.Count;
         int hiddenWords = _words.Count(word => word.IsHidden());

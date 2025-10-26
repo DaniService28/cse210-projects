@@ -8,7 +8,7 @@ class Program
         string scriptureReference = reference.GetScripture();
 
         Scripture scripture = new Scripture();
-        scripture.ConvertScriptureIntoList(scriptureReference);
+        scripture.ConvertTextIntoList(scriptureReference);
 
         Console.Write(reference.DisplayReference());
         Console.WriteLine(reference.DisplayScripture());
@@ -28,7 +28,7 @@ class Program
             Console.WriteLine(message);
             Console.Write(reference.DisplayReference());
             scripture.GetDisplayText();
-            Console.WriteLine(scripture.GetProgressInPercentage());
+            Console.WriteLine(scripture.GetProgressPercentage());
 
 
             if (scripture.IsCompletelyHidden())
