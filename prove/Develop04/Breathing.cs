@@ -4,5 +4,18 @@ public class Breathing : Activity
     {
     }
 
-    
+    public void DisplayActivity()
+    {
+        for (int i = 0; i < _duration; i += 10)
+        {
+            Console.Write("Breathe in...");
+            base.counterDown(4);
+            Console.WriteLine();
+
+            Console.Write("Breathe out...");
+            base.counterDown(6);
+            Console.WriteLine("\n");
+        }
+    }
+
 }

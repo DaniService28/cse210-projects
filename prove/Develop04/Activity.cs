@@ -20,16 +20,16 @@ public class Activity
         Console.WriteLine();
         Console.Write("How long, in seconds, would you like for your session? ");
 
-        
+
         return _duration = int.Parse(Console.ReadLine());
     }
 
     public void EndingMessage()
     {
         Console.WriteLine("Well done!!");
-        DotsTimer(3);
+        DotsTimer(2);
         Console.WriteLine($"You have completed another {_duration} seconds of the {_activityName} Activity");
-        DotsTimer(3);
+        DotsTimer(2);
     }
 
     public void DotsTimer(int times)
@@ -37,15 +37,15 @@ public class Activity
         for (int i = 0; i < times; i++)
         {
             Console.Write(".");
-            Thread.Sleep(400);
+            Thread.Sleep(600);
             Console.Write("\b \b");
             Console.Write("..");
-            Thread.Sleep(400);
+            Thread.Sleep(700);
             Console.Write("\b\b  \b\b");
             Console.Write("...");
-            Thread.Sleep(400);
+            Thread.Sleep(700);
             Console.Write("\b\b\b   \b\b\b");
-            Thread.Sleep(400);
+            Thread.Sleep(600);
         }
     }
 
@@ -53,8 +53,8 @@ public class Activity
     {
         for (int i = seconds; i >= 0; i--)
         {
-            Console.Write(seconds);
-            Thread.Sleep(400);
+            Console.Write(i);
+            Thread.Sleep(1000);
             Console.Write("\b \b");
         }
     }
