@@ -4,7 +4,7 @@ public class Listing : Activity
 {
     Random _random = new Random();
 
-    public List<string> _reflectionQuestions = new List<string>
+    private List<string> _reflectionQuestions = new List<string>
     {
         "Who are people that you appreciate?",
         "What are personal strengths of yours?",
