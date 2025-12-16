@@ -1,7 +1,32 @@
-101;Malecón 2000,Rocafuerte,Bolívar,Monte Bello
-102;Los Ceibos,Urdesa Norte,Sauces,Kennedy Norte
-103;Bellavista,Puerto Azul,Guasmo Este,Guasmo Oeste
-104;Isla Trinitaria,Batallón del Suburbio,Floresta
-105;La Pradera,Centenario,Huancavilca,9 de Octubre,Las Peñas
-110;La Pradera,9 de Octubre,Bolívar,Ciudadela Ferroviaria,Bosques del Salado
 75;Urdesa Norte,Sauces,Las Peñas,Malecón 2000,Sucre
+101;Alborada,Samanes,Garzota,Centenario,9 de Octubre,Las Peñas
+102;Guasmo Este,Guasmo Oeste,Isla Trinitaria,La Pradera,Ayacucho,Malecón 2000
+103;Los Ceibos,Bellavista,Kennedy Norte,Urdesa Norte,Miraflores,Letamendi
+104;Puerto Azul,Los Ceibos,Floresta,La Pradera,Centenario,Sucre
+105;Sauces,Garzota,Malecón 2000,Rocafuerte,Bolívar,Las Peñas
+106;Monte Bello,Lomas de Prosperina,Bosques del Salado,Miraflores,Letamendi,Sucre
+107;Ciudadela Ferroviaria,Ayacucho,9 de Octubre,Centenario,Floresta,Garzota
+108;Guasmo Oeste,Batallón del Suburbio,Isla Trinitaria,La Pradera,Ayacucho,Sucre
+109;Samanes,Alborada,Urdesa Norte,Kennedy Norte,Bellavista,Malecón 2000
+110;Las Peñas,Malecón 2000,Sucre,Bolívar,Rocafuerte,Ayacucho
+111;Bosques del Salado,Monte Bello,Miraflores,Letamendi,9 de Octubre,Centenario
+112;Puerto Azul,Los Ceibos,Bellavista,Urdesa Norte,Sauces,Garzota
+113;Guasmo Este,Guasmo Oeste,Isla Trinitaria,Batallón del Suburbio,Floresta,La Pradera
+114;Lomas de Prosperina,Monte Bello,Bosques del Salado,Miraflores,Letamendi,Sucre
+115;Rocafuerte,Bolívar,Sucre,Malecón 2000,Las Peñas,Ayacucho
+116;Kennedy Norte,Bellavista,Urdesa Norte,Samanes,Alborada,Garzota
+117;Ciudadela Ferroviaria,Ayacucho,9 de Octubre,Centenario,Floresta,Los Ceibos
+118;Sauces,Garzota,Alborada,Samanes,Kennedy Norte,Bellavista
+119;Guasmo Oeste,Isla Trinitaria,Batallón del Suburbio,Floresta,La Pradera,Centenario
+120;Alborada,Samanes,Garzota,Kennedy Norte,Bellavista,Puerto Azul,Los Ceibos
+121;Guasmo Este,Guasmo Oeste,Isla Trinitaria,Batallón del Suburbio,Floresta,La Pradera,Centenario
+122;Huancavilca,9 de Octubre,Ayacucho,Miraflores,Letamendi,Rocafuerte,Bolívar
+123;Monte Bello,Lomas de Prosperina,Bosques del Salado,Sucre,Malecón 2000,Las Peñas
+124;Ciudadela Ferroviaria,Ayacucho,Centenario,Floresta,Los Ceibos,Bellavista,Kennedy Norte
+125;Guasmo Oeste,Isla Trinitaria,La Pradera,Ayacucho,9 de Octubre,Huancavilca,Malecón 2000
+126;Urdesa Norte,Sauces,Garzota,Alborada,Samanes,Kennedy Norte,Bellavista
+127;Puerto Azul,Los Ceibos,Floresta,La Pradera,Centenario,Rocafuerte,Bolívar
+128;Malecón 2000,Ayacucho,Miraflores,Letamendi,Rocafuerte,Bolívar
+129;Guasmo Este,Isla Trinitaria,Batallón del Suburbio,La Pradera,Ayacucho,9 de Octubre,Las Peñas
+54;Alborada,Samanes,Garzota,Los Ceibos,Urdesa Norte
+84;Garzota,Sauces,Bellavista,La Pradera,Centenario,Huancavilca,Las Peñas

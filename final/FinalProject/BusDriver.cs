@@ -1,37 +1,14 @@
-public class BusDriver
+public class BusDriver : DriverBase
 {
-    protected string _name;
-    protected string _idNumber;
-    protected string _vehicleCapacity;
-    protected int _unitRoute;
-    public string _userPassword;
-
-    public BusDriver()
-    {
-    }
+    public BusDriver() : base() { }
 
     public BusDriver(string name, string idNumber, string vehicleCapacity, int unitRoute, string userPassword)
+        : base(name, idNumber, vehicleCapacity, unitRoute, userPassword)
     {
-        _name = name;
-        _idNumber = idNumber;
-        _vehicleCapacity = vehicleCapacity;
-        _unitRoute = unitRoute;
-        _userPassword = userPassword;
     }
 
-    public string GetDriverInfo()
+    public override string GetDriverInfo()
     {
-        return $"Name: {_name}\nID: {_idNumber}\nCapacity: {_vehicleCapacity}\nRoute: {_unitRoute}";
-    }       
-
-    public string StringFormat()
-    {
-        return $"{_name},{_idNumber},{_vehicleCapacity},{_unitRoute},{_userPassword}";
+        return $"[BUS DRIVER]\n" + base.GetDriverInfo();
     }
-
-    public bool ValidatePassword(string password)
-    {
-        return _userPassword == password;
-    }
-
 }

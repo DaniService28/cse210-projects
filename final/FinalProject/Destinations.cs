@@ -53,5 +53,14 @@ public class Destinations
         return _cityAreas;
     }
 
+    public List<string> indexesToRoute(string routeData)
+    {
+        List<string> allDestinations = GetDestinations();
+
+        return routeData
+            .Split(',')
+            .Select(i => allDestinations[int.Parse(i) - 1])
+            .ToList();
+    }
 
 }
