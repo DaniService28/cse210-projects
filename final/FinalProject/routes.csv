@@ -19,7 +19,7 @@
 118;Sauces,Garzota,Alborada,Samanes,Kennedy Norte,Bellavista
 119;Guasmo Oeste,Isla Trinitaria,Batallón del Suburbio,Floresta,La Pradera,Centenario
 120;Alborada,Samanes,Garzota,Kennedy Norte,Bellavista,Puerto Azul,Los Ceibos
-121;Guasmo Este,Guasmo Oeste,Isla Trinitaria,Batallón del Suburbio,Floresta,La Pradera,Centenario
+121;Isla Trinitaria,Batallón del Suburbio,La Pradera,Huancavilca,Las Peñas,Malecón 2000,Miraflores
 122;Huancavilca,9 de Octubre,Ayacucho,Miraflores,Letamendi,Rocafuerte,Bolívar
 123;Monte Bello,Lomas de Prosperina,Bosques del Salado,Sucre,Malecón 2000,Las Peñas
 124;Ciudadela Ferroviaria,Ayacucho,Centenario,Floresta,Los Ceibos,Bellavista,Kennedy Norte
@@ -29,4 +29,9 @@
 128;Malecón 2000,Ayacucho,Miraflores,Letamendi,Rocafuerte,Bolívar
 129;Guasmo Este,Isla Trinitaria,Batallón del Suburbio,La Pradera,Ayacucho,9 de Octubre,Las Peñas
 54;Alborada,Samanes,Garzota,Los Ceibos,Urdesa Norte
-84;Garzota,Sauces,Bellavista,La Pradera,Centenario,Huancavilca,Las Peñas
+84;Malecón 2000,Bolívar,Sucre,Monte Bello,Ciudadela Ferroviaria
+201;Alborada,Garzota,Las Peñas,Ayacucho,Rocafuerte
+304;Puerto Azul,Guasmo Este,Malecón 2000,Bolívar,Miraflores
+200;Alborada,Samanes,Urdesa Norte,Sauces,Kennedy Norte,Bellavista
+23;Samanes,Urdesa Norte,Kennedy Norte,Bellavista,Guasmo Este,Isla Trinitaria,9 de Octubre
+29;Urdesa Norte,Puerto Azul,Isla Trinitaria,Sucre,Bosques del Salado
